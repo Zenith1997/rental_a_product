@@ -1,0 +1,8 @@
+/* slider.css */
+
+/* Apply styles to the root element wrapping the slider */
+.MuiSlider-root {
+    width: 900px !important; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+  }
+  

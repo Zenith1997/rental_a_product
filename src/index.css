@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+/* Stripe CardElement styles */
+.StripeElement {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.StripeElement--focus {
+  border-color: #D10002;
+  box-shadow: 0 0 0 2px rgba(209, 0, 2, 0.2);
+}
+
+.StripeElement--invalid {
+  border-color: #9e2146;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overscroll-behavior-y: contain; /* Prevents scrollbar from affecting header */
+  padding-top: 64px; /* Match header height */
+}
